@@ -50,13 +50,13 @@ restaurant-pulse-ai/
 
 ## Features
 
-- ### 🎯 Demand Forecasting
+### Demand Forecasting
 - **Gradient Boosting (scikit-learn)**: Ensemble gradient-boosting regression used by default for broad compatibility (XGBoost can be added if desired)
 - **Ensemble Methods**: Multiple models with weighted predictions
 - **Feature Engineering**: Temporal features, lag features, rolling statistics
 - **Model Persistence**: Save/load trained models
 
-### 🚨 Anomaly Detection
+### Anomaly Detection
 - **Multiple Detection Methods**:
   - Statistical (Z-score based)
   - Trend analysis
@@ -64,7 +64,7 @@ restaurant-pulse-ai/
 - **Severity Scoring**: 0-1 scale for anomaly severity
 - **Actionable Insights**: Automatic recommendation generation
 
-### 🤖 AI Strategy Agent
+### AI Strategy Agent
 - **LangChain Integration**: Leverages GPT-4 for intelligent analysis
 - **Context-Aware**: Considers restaurant type, capacity, and constraints
 - **Multi-Faceted Analysis**:
@@ -73,7 +73,7 @@ restaurant-pulse-ai/
   - Action planning
 - **Demo Mode**: Works without OpenAI API for testing
 
-### 📊 Interactive Dashboard
+### Interactive Dashboard
 - **Real-time Monitoring**: Live data updates
 - **Visualizations**: Revenue trends, anomaly timelines, forecasts
 - **Restaurant Selection**: Multi-restaurant support
